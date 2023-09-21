@@ -1,0 +1,30 @@
+div{background-color: aquamarine;
+text-decoration-color: black;
+}
+
+iframe {
+    width: 600px;
+    height: 400px;
+}
+
+
+.bombillas_article img{
+    width: 400px;
+}
+body{background-image: url(img/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;  
+  
+    }
+
+    .secciones-ul{
+        text-align:center;
+        list-style: none;
+    display: inline;
+    
+    
+    }
+    
+
+
+
