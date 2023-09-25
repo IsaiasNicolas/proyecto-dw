@@ -18,13 +18,36 @@ body{background-image: url(img/fondo.png);
     }
 
     .secciones-ul{
-        text-align:center;
+        text-align: center;
         list-style: none;
-    display: inline;
-    
-    
+        display: flex;
+        align-items: flex-start;
+        align-content: flex-end;
+        justify-content: space-between;
+
+        & a {
+            text-decoration: none;
     }
+}
+   .container-cards{
+    width: 250px;
+    margin: 20px;
+
+
+   }
+
+   .container-cards img {
+    width: 150px;
+   }
     
+   .articulos-2{
+    display: flex;
+    justify-content:center ;
+    flex-wrap: wrap;
+   }
+   
 
 
-
+@media screen and (max-width: 300px) {
+    
+}
