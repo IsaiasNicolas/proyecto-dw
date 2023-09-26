@@ -1,7 +1,10 @@
 div{background-color: aquamarine;
 text-decoration-color: black;
 }
-
+main {
+    display: flex;
+    justify-content: center;
+}
 iframe {
     width: 600px;
     height: 400px;
@@ -11,10 +14,8 @@ iframe {
 .bombillas_article img{
     width: 400px;
 }
-body{background-image: url(img/fondo.png);
-    background-size: cover;
-    background-repeat: no-repeat;  
-  
+body{background-color: #1A4D2E;
+    
     }
 
     .secciones-ul{
@@ -32,19 +33,32 @@ body{background-image: url(img/fondo.png);
    .container-cards{
     width: 250px;
     margin: 20px;
-
-
-   }
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    display: flex;
+    background: #FF9F29;
+    flex-direction:column;
+    align-content:stretch;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 20px
+    
+    
+    
+ }
 
    .container-cards img {
     width: 150px;
    }
     
-   .articulos-2{
-    display: flex;
-    justify-content:center ;
-    flex-wrap: wrap;
-   }
+   
+    
+
+
+
+
+   
    
 
 
