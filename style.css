@@ -48,6 +48,14 @@ body{background-color: #1A4D2E;
     
  }
 
+
+ .articulos-2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+ }
+
    .container-cards img {
     width: 150px;
    }
