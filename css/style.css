@@ -3,7 +3,7 @@ text-decoration-color: black;
 }
 main {
     display: flex;
-    justify-content: center;
+    justify-content: center;    
 }
 iframe {
     width: 600px;
@@ -29,6 +29,10 @@ body{background-color: #1A4D2E;
         & a {
             text-decoration: none;
     }
+
+
+   
+
 }
    .container-cards{
     width: 250px;
@@ -43,7 +47,6 @@ body{background-color: #1A4D2E;
     justify-content: center;
     flex-wrap: wrap;
     border-radius: 20px
-    
     
     
  }
@@ -61,8 +64,33 @@ body{background-color: #1A4D2E;
    }
     
    
-    
+    .footer_pp{
+        display: flex;
 
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 35px;
+        align-content: flex-end;
+        
+    }
+    .footer_p{
+        background-color: rgb(0, 0, 0);
+    }
+  
+    .links-{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        margin: 40px;
+        list-style: none;
+        
+        
+        & a {
+        text-decoration: none;
+        
+        }
+    }
 
 
 
