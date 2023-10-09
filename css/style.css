@@ -1,40 +1,37 @@
-div{background-color: aquamarine;
-text-decoration-color: black;
-}
-main {
-    display: flex;
-    justify-content: center;    
-}
-iframe {
-    width: 600px;
-    height: 400px;
-}
 
+
+/*# sourceMappingURL=style.css.map */
+div{background-color: aquamarine;
+    text-decoration-color: black;
+}main{
+    display: flex;
+    justify-content: center;
+}
+iframe{
+width: 600px;
+height: 400px;
+}
 
 .bombillas_article img{
     width: 400px;
 }
-body{background-color: #1A4D2E;
-    
-    }
-
-    .secciones-ul{
-        text-align: center;
-        list-style: none;
-        display: flex;
-        align-items: flex-start;
-        align-content: flex-end;
-        justify-content: space-between;
-
-        & a {
-            text-decoration: none;
-    }
-
-
-   
-
+body{background-color: #1a4d2e;
 }
-   .container-cards{
+
+.secciones-ul{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-end;
+    justify-content: space-between;
+}
+    & a {
+    text-decoration: none;
+}
+
+
+.container-cards{
     width: 250px;
     margin: 20px;
     padding: 20px;
@@ -91,7 +88,14 @@ body{background-color: #1A4D2E;
         
         }
     }
+    .footer{
+        background-color: white;
+    }
+    .style_footer{
+      background-color: white;
+    }
 
+    
 
 
    
