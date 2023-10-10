@@ -1,0 +1,36 @@
+body{
+    font-family: 
+
+    withe-space pre;
+    display: block;
+    padding: 1em
+    border-bottom 2px solid black
+     
+
+}
+div{
+    background-color: aquamarine;
+    text-decoration-color:black ;
+
+}
+main{
+    display: flex
+    justify-content center
+}
+iframe{
+    width: 600px;
+    height: 400px;
+}
+ul{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-end;
+    justify-content: space-between;
+
+    & a{
+        text-decoration: none;
+    }
+    
+}

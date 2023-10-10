@@ -1,79 +1,89 @@
 @import "./utilities/variables";
-div 
+div {
 	background-color aquamarine
 	text-decoration-color black
-
-main 
+}
+main {
 	display flex
 	justify-content center
-
-iframe 
-	width: 600px
-	height: 400px
-
-.bombillas_article img 
-	width: 400px
-
-body 
-	background-color: #1a4d2e
-
-.secciones-ul 
-	text-align: center
-	list-style: none
-	display: flex
-	align-items: flex-start
-	align-content: flex-end
-	justify-content: space-between
-
-a 
-	text-decoration: none
-
-.container-cards 
-	width: 250px
-	margin: 20px
+}
+ iframe {
+	$width 600px
+	$height 400px
+ }
+.bombillas_article img{ 
+	$width: 400px
+}
+body {
+	background-color: #1a4d2e;
+}
+.secciones-ul {
+	text-align center
+	list-style none
+	$display: flex
+	align-items flex-start
+	align-content flex-end
+	justify-content space-between
+}
+a { 
+	text-decoration none
+}
+.anchor-container_product {
+	color: black;
+}
+.container-cards{
+	width 250px
+	margin 20px
 	padding: 20px
-	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px
+	box-shadow rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px
 	display: flex
-	background: #FF9F29
-	flex-direction: column
-	align-content: stretch
-	align-items: center
-	justify-content: center
-	flex-wrap: wrap
-	border-radius: 20px
-	img 
-		width: 150px
+	background-color $color-container-cards
+	flex-direction column
+	align-content stretch
+	align-items center
+	justify-content center
+	flex-wrap wrap
+	border-radius 20px
 	
+	img{
+		width: 150px;
+	}
+}
 
-.articulos-2 
+.articulos-2{
 	display: flex
-	justify-content: center
-	flex-wrap: wrap
+	justify-content center
+	flex-wrap wrap
 	margin: 30px
-
-.footer_pp 
-	display: flex
-	justify-content: center
-	flex-wrap: wrap
-	margin: 35px
-	align-content: flex-end
-
-.footer_p 
+}
+.footer_pp {
+	& iframe{
+	display:flex;
+	margin: 30px;
+	}
+}	
+	align-content flex-end
+}
+.footer_p{
 	background-color: rgb(0, 0, 0)
+}
+.links-networks{ 
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: flex-end;
+	margin: 40px;
+	list-style: none;
+	text-decoration: none;
 
-.links- 
-	display: flex
-	justify-content: center
-	flex-wrap: wrap
-	align-content: flex-end
-	margin: 40px
-	list-style: none
-	text-decoration: none
+	.style_footer{
+	
+	color:  $color-letras-footer
+  }
+}
 
-	.style_footer
-	$color-letras-footer
+@media  screen and(max-width: 300px) {
+	/*Estilos para pantallas con un ancho máximo de 300px */
+}
 
-
-
-media screen and (max-width: 300px) 
 
